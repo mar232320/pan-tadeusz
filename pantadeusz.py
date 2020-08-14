@@ -23,4 +23,4 @@ async def inwokacja(ctx):
 async def purge(ctx, amount=5):
     await ctx.channel.purge(limit=amount)
     
-client.run('NzQyNDE2ODE2ODA2Mjk3Njcw.XzFzig.DlT92vs3BAoTOWtnyVbeaEp93O0')
+client.run(process.env.token)
